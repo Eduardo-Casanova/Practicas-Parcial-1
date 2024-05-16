@@ -1,0 +1,98 @@
+/*<!-- Universidad Tecnologia Metropolitana
+     Aplicaciones Web
+     Ing Ruth Betsaida Martinez
+     Practicas Parcial 1
+     Angel Eduardo Sabido Casanova 
+     3 Cuatrimestre
+     3°C
+     Parcil 1
+     -->*/
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+nav {
+    height: 100px;
+    background-color: #67b21c;
+    border: 5px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+nav section#box {
+    width: 180px;
+    height: 70px;
+    background-color: #fff;
+    margin: 0 6px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+header {
+    height: 300px;
+    background-color: rgb(70, 70, 173);
+    border: 10px solid black;
+    padding: 8px 15px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    text-align: center; 
+}
+
+#banner {
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    margin-right: 10px;
+    border: 4px solid rgb(255, 255, 255);
+    
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo,
+#login,
+#form {
+    width: 200px;
+    height: 90px;
+    background-color: #f0f0f0;
+    margin: 6px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+main {
+    height: 500px;
+    display: flex;
+    background-color: #FFE4C4;
+    border: 10px solid black;
+    padding: 5px;
+    text-align: center; 
+    
+}
+
+main aside,
+main article {
+    flex-basis: 200px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 5px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+main article {
+    flex-basis: 500px;
+}
+
+footer {
+    height: 50px;
+    background-color: #d0b115;
+    border: 10px solid black;
+    padding: 10px;
+    text-align: center; 
+}

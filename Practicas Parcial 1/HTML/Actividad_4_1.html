@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Información Personal</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Apellido como se muestra en su pasaporte" id="apellido" name="apellido" required><br>
+            
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Solo nombre" id="nombre" name="nombre" required><br>
+            
+            <label for="fecha_nacimiento">Fecha de Nacimiento</label>
+            <select name="dia_nacimiento" id="dia_nacimiento" required>
+                <option value="">Día</option>
+                <!-- Puedes generar opciones de 1 a 31 con un script -->
+            </select>
+            <select name="mes_nacimiento" id="mes_nacimiento" required>
+                <option value="">Mes</option>
+                <!-- Puedes generar opciones de los meses del año -->
+            </select>
+            <input type="number" name="anio_nacimiento" placeholder="Año" required><br>
+            
+            <label for="ciudad_nacimiento">Ciudad de Nacimiento</label>
+            <input type="text" id="ciudad_nacimiento" placeholder="Ciudad de nacimiento" name="ciudad_nacimiento" required><br>
+            
+            <label for="pais_nacimiento">País de Nacimiento</label>
+            <select name="pais_nacimiento" id="pais_nacimiento" required>
+                <option value="">Selecciona un país</option>
+                <option value="España">España</option>
+                <!-- Agrega más opciones según necesites -->
+            </select><br>
+            
+            <label for="nacionalidad">Nacionalidad</label>
+            <select name="nacionalidad" id="nacionalidad" required>
+                <option value="">Selecciona una nacionalidad</option>
+                <option value="Español">Español</option>
+                <!-- Agrega más opciones según necesites -->
+            </select><br>
+            
+            <label for="numero_pasaporte">Número de Pasaporte</label>
+            <input type="number" placeholder="Numero de pasaporte" id="numero_pasaporte" name="numero_pasaporte" required><br>
+
+            <label for="pais_emision_pasaporte">País de Emisión del Pasaporte</label>
+            <select name="pais_emision_pasaporte" id="pais_emision_pasaporte" required>
+                <option value="">Selecciona un país</option>
+                <option value="España">España</option>
+                <!-- Agrega más opciones según necesites -->
+            </select><br>
+
+            <label for="fecha_emision_pasaporte">Fecha de Emisión del Pasaporte</label>
+            <select name="dia_emision_pasaporte" id="dia_emision_pasaporte" required>
+                <option value="">Día</option>
+                <!-- Puedes generar opciones de 1 a 31 con un script -->
+            </select>
+            <select name="mes_emision_pasaporte" id="mes_emision_pasaporte" required>
+                <option value="">Mes</option>
+                <!-- Puedes generar opciones de los meses del año -->
+            </select>
+            <input type="number" name="anio_emision_pasaporte" placeholder="Año" required><br>
+            
+            <label for="fecha_vencimiento_pasaporte">Fecha de Vencimiento del Pasaporte</label>
+            <select name="dia_vencimiento_pasaporte" id="dia_vencimiento_pasaporte" required>
+                <option value="">Día</option>
+                <!-- Puedes generar opciones de 1 a 31 con un script -->
+            </select>
+            <select name="mes_vencimiento_pasaporte" id="mes_vencimiento_pasaporte" required>
+                <option value="">Mes</option>
+                <!-- Puedes generar opciones de los meses del año -->
+            </select>
+            <input type="number" name="anio_vencimiento_pasaporte" placeholder="Año" required><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
